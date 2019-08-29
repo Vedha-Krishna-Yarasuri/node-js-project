@@ -1,0 +1,99 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<title>login page</title>
+	<style>
+	body
+	{
+			background-color:#004d80
+	}
+		.all
+		{
+			    margin-top: 20px;
+			    text-align: center;
+			    letter-spacing: 4px;
+			    border-radius: 20px;
+			    font-size: 22px;
+			    border-width: 0px;
+			    border: 2px solid DodgerBlue;
+			    margin-left: -67px;
+			    height: 45px;
+			    width: 340px;
+		}
+		.hello
+		{
+		    margin-top: 34px;
+		    margin-left: 8px;
+		    width: 150px;
+		    background-color: #fff;
+		    border-radius: 14px;
+		    border-width: 0px;
+		    border: 2px solid rgb(60, 179, 113);
+		    font-size: 20px;
+		    height:42px;
+		}
+		.hello:hover
+		{
+			background-color: rgb(60, 179, 113);
+			color:#fff;
+		}
+		.here{
+			    width: 506px;
+			    z-index: -5;
+			    height: 900px;
+			    position: absolute;
+			    margin-left:0px;
+			    background-color: #787878;
+			    border-width: 0px;
+			    border-radius: 20px;
+			    margin-top: 29px;
+		}
+		.heading
+		{
+			margin-top: 20px;
+			color: #fff;
+			margin-left: -56px;
+		}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="row" style="position: relative;">
+	<div class="col-md-3"></div>
+	<div class="col-md-5">
+		<button class="here"></button>
+		<div style="text-align: center;color: #fff;
+		margin-left: 28px;margin-top: 52px;"><h2>REGISTER  HERE </h2></div>
+		<hr style="margin-left: 35px;">
+		<div style="margin-left: 145px;">
+			<form action="register-done" method="GET">
+			<h3 class="Heading">First Name</h3>
+			<input type="text" placeholder="First Name" class="users all"
+			name="firstname">
+			<br>
+			<h3 class="Heading">Last Name</h3>
+			<input type="text" placeholder="Last Name" class="users all"
+			name="lastname">
+			<br>
+			<h3 class="Heading">Create A User Name</h3>
+			<input type="email" placeholder="UserName@gmail.com"
+			 class="users all" name="username">
+			<br>
+			<h3 class="Heading">Create A Password</h3>
+			<input type="password" placeholder="Password" class="users all"
+			name="password_1">
+			 <br>	
+			 <h3 class="Heading">Re-Enter The Password</h3>
+			 <input type="password" placeholder="Re-Type Password" class="users all" name="password_2">
+			 <br>
+			 <h3 class="Heading">Mobile Number</h3>
+			 <input type="Number" placeholder="Mobile Number" 
+			 class="users all" name="number">
+			 <br>
+			<input type="submit" class="hello"></div>
+		</form>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

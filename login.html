@@ -1,0 +1,80 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<title>login page</title>
+	<style>
+	body
+	{
+			background-color:#004d80
+	}
+		.users:hover
+		{
+			    padding-left: 70px;
+			    padding-right: 70px;
+			    margin-left: -90px;
+		}
+		.all
+		{
+			margin-top: 32px;
+		    text-align: center;
+		    letter-spacing: 4px;
+		    border-radius: 20px;
+		    font-size: 20px;
+		    border-width: 0px;
+		    border: 2px solid DodgerBlue;
+		    margin-left: -35px;
+		    height: 45px;
+		}
+		.hello
+		{
+		    margin-top: 34px;
+		    margin-left: 8px;
+		    width: 150px;
+		    background-color: #fff;
+		    border-radius: 14px;
+		    border-width: 0px;
+		    border: 2px solid rgb(60, 179, 113);
+		    font-size: 20px;
+		}
+		.hello:hover
+		{
+			background-color: rgb(60, 179, 113);
+			color:#fff;
+		}
+		.here{
+			    width: 421px;
+			    z-index: -5;
+			    height: 300px;
+			    position: absolute;
+			    margin-left: 38px;
+			    background-color: #787878;
+			    border-width: 0px;
+			    border-radius: 20px;
+		}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="row" style="position: relative;top: -50px;
+    left: -50px;transform: translate(100px,250px);">
+	<div class="col-md-3"></div>
+	<div class="col-md-5">
+		<button class="here"></button>
+		<div style="text-align: center;color: #fff;
+		margin-left: 28px;"><h2>LOG IN</h2></div>
+		<div style="margin-left: 145px;">
+			<form action="login-done" method="GET">
+			<input type="email" placeholder="UserName" class="users all"
+			name="username">
+			<br>
+			
+			<input type="password" placeholder="Password" class="users all"
+			name="passwd">
+			 <br>	
+		<input type="submit"style="margin-left: 21px;"class="hello"></div>
+	</form>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
